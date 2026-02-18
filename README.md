@@ -5,9 +5,13 @@
 
 ## Struktur program (setup() & loop())
 * Bagian setup() merupakan bagian yang hanya dijalankan satu kali saja yaitu pada saat program pertama dijalankan. Bagian ini berfungsi sebagai pedefinisian suatu perangkat, seperti pedefinisian pin,komunikasi,SPI dan lain-lain. Contoh:
-void setup()
+
+  void setup()
+
 {
+
       pinMode(13,OUTPUT); // mengset pin 13 di board arduino sebagai output
+
 } 
 
 * Bagian loop() merupakan bagian yang akan terus dijalankan dan akan melakukan instruksi-instruksi/program yang ada di dalam loop() secara berurutan. Contoh:
