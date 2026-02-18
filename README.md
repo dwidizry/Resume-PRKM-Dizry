@@ -17,11 +17,17 @@
 * Bagian loop() merupakan bagian yang akan terus dijalankan dan akan melakukan instruksi-instruksi/program yang ada di dalam loop() secara berurutan. Contoh:
 
  void loop()
+
 {
+
      digitalWrite(13, HIGH); // nyalakan pin 13
+     
      delay(1000);   // delay selama 1000 ms
+     
      digitalWrite(13, LOW); // matikan pin 13
+     
      delay(1000);   /// delay selama 1000 ms
+
 } 
 
 ## Digital & Analog I/O
